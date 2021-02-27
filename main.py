@@ -29,13 +29,13 @@ canvas.grid(column=1, row=1)
 timer = Label(text="Timer", font=(FONT_NAME, 50), bg=YELLOW, fg=GREEN)
 timer.grid(column=1, row=0)
 
-start_btn = Button(text="Start")
+start_btn = Button(text="Start", highlightthickness=0)
 start_btn.grid(column=0, row=2)
 
 check_mark = Label(text="✔", bg=YELLOW, fg=GREEN)
 check_mark.grid(column=1, row=3)
 
-reset_btn = Button(text="Reset")
+reset_btn = Button(text="Reset", highlightthickness=0)
 reset_btn.grid(column=2, row=2)
 
 window.mainloop()
